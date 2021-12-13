@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:id="@+id/Tv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="UnsaidWish"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Tv4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tv3"
+        android:gravity="center"
+        android:hint="Please fill all the details..."
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full name"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@id/Tv4"
+        android:layout_marginTop="30sp"
+
+        />
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@id/fullname"
+        android:layout_marginTop="15sp"
+        />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@id/age"
+        android:layout_marginTop="15sp"
+
+        />
+    <EditText
+        android:id="@+id/passwordd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@id/email"
+        android:layout_marginTop="15sp"
+        />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@id/passwordd"
+        android:layout_marginTop="15sp"
+        />
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="detail of person whom you want to send video for eg:-name,age,email"
+        android:layout_marginHorizontal="20sp"
+        android:layout_below="@id/address"
+        android:layout_marginTop="15sp"
+        />
+    <Button
+        android:id="@+id/regidterbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@id/details"
+        android:layout_marginHorizontal="40sp"
+        android:layout_marginTop="50sp"/>
+    <ProgressBar
+        android:id="@+id/progressba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+
+
+</RelativeLayout>

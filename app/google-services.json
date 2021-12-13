@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "899834037588",
+    "project_id": "myunsaidwish",
+    "storage_bucket": "myunsaidwish.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899834037588:android:c8503bf3b02997cd54f4c1",
+        "android_client_info": {
+          "package_name": "com.example.myunsaidwish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899834037588-djrucsgavdsq43km2r3gb2j51jq78sm5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiL6rff5ixn96SUF0yB4wDLidWYsA-TYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899834037588-djrucsgavdsq43km2r3gb2j51jq78sm5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
